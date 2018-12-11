@@ -1,0 +1,169 @@
+*{ box-sizing: border-box;}
+
+body
+{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.v-header
+{
+    min-height: 100%;
+    min-width: 100%;
+}
+
+.container-fluid
+{
+    left: 0;
+
+    opacity: .85;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+}
+
+.fullscreen-video-wrap
+{
+    height: 100vh;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.fullscreen-video-wrap video
+{
+    min-height: 100%;
+    min-width: 100%;
+}
+
+.logo
+{
+    height: 5vh;
+}
+
+.title-size
+{
+    padding: 5vh 0;
+}
+
+.title
+{
+    color: goldenrod;
+}
+
+.thumbnail
+{
+    left: 0;
+    margin: 6.5rem 0 0 0;
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    z-index: 2;
+}
+
+.navbar
+{
+    left: 0;
+    opacity: .8;
+    padding: 3vh 0;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.navbar li
+{
+    margin: 1vh 3vw;
+}
+
+.nav-link
+{
+    color: gold;
+    font-weight: bold;
+}
+
+
+/* Begin services.html styling */
+.textFields
+{
+    width: 20vw;
+}
+/* End services.html styling */
+
+/* Media Shrinkage */
+@media(min-width: 150px)
+{
+    .btn{ font-size: .9rem;}
+    .title{ font-size: .7rem;}
+    .btn a:hover
+    {
+        color: black;
+        font-size: .6rem;
+    }
+}
+
+@media(min-width: 360px)
+{
+    .btn{ font-size: .9rem;}
+    .title{ font-size: 1rem;}
+    .btn a:hover
+    {
+        color: black;
+        font-size: .6rem;
+    }
+}
+@media(min-width: 480px)
+{
+    .btn{ font-size: .9rem;}
+    .title{ font-size: 1.4rem;}
+    .btn a:hover
+    {
+        color: black;
+        font-size: 1rem;
+    }
+}
+
+
+@media(min-width:768px)
+{
+    .btn{ font-size: 1rem;}
+    .title{ font-size: 1.8rem;}
+    .btn a:hover
+    {
+        color: black;
+        font-size: 1.4rem;
+    }
+}
+
+@media(min-width:992px)
+{
+    .btn{ font-size: 1.3rem;}
+    .title{ font-size: 2.3rem;}
+    .btn a:hover
+    {
+        color: black;
+        font-size: 1.9rem;
+    }
+}
+
+@media(min-width:1200px)
+{
+    .btn{ font-size: 1.7rem;}
+    .title{ font-size: 3.5rem;}
+    .btn a:hover
+    {
+        color: black;
+        font-size: 1.7rem;
+    }
+}
+
+/* Begin About page */
+
+/* End About page */
+
+/* Begin Services page*/
+/* End Sevices page */

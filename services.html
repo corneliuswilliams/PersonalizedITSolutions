@@ -1,0 +1,95 @@
+<!-- Design and Development started by -->
+<!-- Andre Williams -->
+<!-- 10-24-2018 -->
+<!-- 8:22 am -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+
+    <!-- Links to CSS -->
+    <link href="style.css" rel="stylesheet">
+
+    <title>Personalized IT Solutions</title>
+</head>
+<body>
+    <header class="v-header">
+        <div class="fullscreen-video-wrap">
+            <video autoplay loop>
+                <source src="vid/globe.mp4">
+            </video>
+        </div>
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col bg-light text-center">
+                    <div class="text-dark"><img src="img/Dev.png" alt="X" class="logo"><span class="title" style="margin: 0 0 0 5px;">Personalized IT Solutions</span></div>
+                </div>
+            </div>
+
+            <!-- Grid Body -->
+            <div class="row">
+                <nav class="navbar navbar-expand-md justify-content-center">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><button class="btn btn-outline-light"><a href="index.html" class="nav-link">Home</a></button></li>
+                        <li class="nav-item"><button class="btn btn-outline-light"><a href="about.html" class="nav-link">About</a></button></li>
+                        <li class="nav-item"><button class="btn btn-outline-light"><a href="#" class="nav-link">Projects</a></button></li>
+                        <li class="nav-item"><button class="btn btn-outline-light"><a href="#" class="nav-link">Contact Us</a></button></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <!-- Services Form --> 
+            <h1 class="text-warning">Services</h1>
+            <form action="">
+                <div class="form-group">
+                    <label for="exampleInputText" class="text-light">First Name</label>
+                    <input type="text" class="form-control textFields" id="exampleInputFName" placeholder="First Name:">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputText" class="text-light">Middle Name</label>
+                    <input type="text" class="form-control textFields" id="exampleInputMName" placeholder="Middle Name:">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputText" class="text-light">Last Name</label>
+                    <input type="text" class="form-control textFields" id="exampleInputLName" placeholder="Last Name:">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputEmail"  class="text-light">Email Address</label>
+                    <input type="email" class="form-control textFields" id="exampleInputEmail" aria-describedby="emailHelp" placeholder="Enter Email">
+                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputPassword" class="text-light" >Password</label>
+                    <input type="password" class="form-control textFields" id="exampleInputPassword" placeholder="Password">
+                </div>
+                <div class="form-group form-check">
+                    <input type="checkbox" class="form-check-input">
+                    <label for="exampleCheck" class="form-check-label">Check Me Out</label>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+            <div id="services"></div>
+        </div>
+    </header>
+
+    <!-- Script Source Files -->
+    
+    <!-- jQuery link -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="js/services.js"></script>
+
+    <!-- Popper JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+ 
+</body>
+</html>
